@@ -29,7 +29,8 @@ Wartime poster dataset.
 We are team 4 participating in the KU Leuven BiblioTech 2023 Hackathon. Our dataset has multilingual wartime posters with proclamations issued by the German General Goverment in Belgium during World War I.
 
 
-We created an interface that allows interested people to discover these posters in an easier way. We want to create a timeline, with a selection of the posters, as well as a geographical map on which the posters are displayed. For the timeline, we want to use TimelineJS.  
+We created an interface that allows interested people to discover these posters in an easier way. We created a timeline, with a selection of the posters using TimelineJS.  
+You can form an understanding of the content as we did Topic Modelling, separated the posters to identifiable categories, and created Word Clouds.
 
 ''')
 
