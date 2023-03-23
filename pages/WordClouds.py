@@ -28,7 +28,7 @@ st.write('Always Dutch, French and German for news (mass media communication)​
 imageList = ['1.png','2.png','3.png']
 
 image = Image.open('titles.png')
-image2 = Image.open('titles.png')
+image2 = Image.open('fullText.png')
 if st.button('Generate Wordcloud of Original Title texts:'):
     st.image(image, caption=' Wordcloud of Original titles')
     
