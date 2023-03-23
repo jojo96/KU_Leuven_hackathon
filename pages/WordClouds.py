@@ -27,6 +27,10 @@ st.write('There are two types of documents: news publications vs regulations​.
 st.write('Always Dutch, French and German for news (mass media communication)​. For news publications: war vocabulary, time ("gisteren"), place, news vocabulary. For regulations​: juridical lexicon, syntaxis related to orders, daily life lexicon ("boter"), war vocabulary​')
 imageList = ['1.png','2.png','3.png']
 
-image = Image.open(random.choice(imageList))
-if st.button('Generate'):
-    st.image(image, caption='Generated posters')
+image = Image.open('titles.png')
+image2 = Image.open('titles.png')
+if st.button('Generate Wordcloud of Original Title texts:'):
+    st.image(image, caption=' Wordcloud of Original titles')
+    
+if st.button('Generate Wordcloud of Full text of the original texts:'):
+    st.image(image2, caption='Full text of the original texts ')    
