@@ -33,4 +33,13 @@ if st.button('Generate Wordcloud of Original Title texts:'):
     st.image(image, caption=' Wordcloud of Original titles')
     
 if st.button('Generate Wordcloud of Full text of the original texts:'):
-    st.image(image2, caption='Full text of the original texts ')    
+    st.image(image2, caption='Full text of the original texts ')   
+
+if st.button('Generate Wordcloud by year:'):
+    st.image('1914.png', caption='Wordcloud by years')
+
+if st.button('Generate Wordcloud by titles of orders and regulations:'):
+    st.image('orders.png', caption='Titles of orders and regulations')
+
+if st.button('Generate Wordcloud by texts of news publications:'):
+    st.image('news.png', caption='Texts of news publications')    
